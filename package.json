@@ -21,7 +21,8 @@
     },
     "dependencies": {
         "atom-languageclient": "^0.9.9",
-        "decompress": "^4.2.0",
+        "extract-zip": "^1.6.7",
+        "semver": "^6.3.0",
         "tree-sitter-kotlin": "^0.2.3"
     },
     "consumedServices": {
