@@ -18,6 +18,6 @@ out
 __pycache__
 *.vsix
 
-# Automatically downloaded
+# Downloaded by the extension
 server
-Kotlin.tmLanguage.json
+serverDownload.zip
