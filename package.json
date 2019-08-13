@@ -6,7 +6,7 @@
     "keywords": [],
     "repository": {
         "type": "git",
-        "url": "https://github.com/fwcd/kotlin-language-server.git"
+        "url": "https://github.com/fwcd/atom-ide-kotlin.git"
     },
     "license": "MIT",
     "engines": {
