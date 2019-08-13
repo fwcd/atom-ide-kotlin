@@ -16,6 +16,9 @@
     "enhancedScopes": [
         "source.kotlin"
     ],
+    "scripts": {
+        "prepare": "gulp"
+    },
     "dependencies": {
         "atom-languageclient": "^0.9.9",
         "tree-sitter-kotlin": "^0.2.3"
@@ -73,5 +76,8 @@
                 "0.1.0": "provideCodeActions"
             }
         }
+    },
+    "devDependencies": {
+        "gulp-filter": "^6.0.0"
     }
 }
