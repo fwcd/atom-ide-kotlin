@@ -7,7 +7,7 @@ const decompress = require('gulp-decompress');
 gulp.task("downloadLanguageServer", done => {
 	download("https://github.com/fwcd/kotlin-language-server/releases/latest/download/server.zip")
 		.pipe(decompress())
-		.pipe(gulp.dest("install"));
+		.pipe(gulp.dest("."));
 	done();
 });
 
