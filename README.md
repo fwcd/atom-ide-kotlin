@@ -1,6 +1,9 @@
 # IDE-Kotlin package for Atom
 This package provides smart code completion, linting and more for Kotlin in Atom using the language server.
 
+![Version](https://img.shields.io/apm/v/ide-kotlin)
+![Downloads](https://img.shields.io/apm/dm/ide-kotlin)
+
 ![Screenshot](screenshot.png)
 
 Although some features (such as code completion) can be used in vanilla Atom, it is recommended to install [atom-ide-ui](https://atom.io/packages/atom-ide-ui).
