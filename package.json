@@ -78,6 +78,8 @@
         }
     },
     "devDependencies": {
+        "gulp": "^4.0.2",
+        "gulp-download": "0.0.1",
         "gulp-filter": "^6.0.0"
     }
 }
