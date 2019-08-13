@@ -11,7 +11,7 @@ gulp.task("downloadLanguageServer", done => {
 	done();
 });
 
-gulp.task("downloadGrammars", done => {
+gulp.task("downloadTextMateGrammars", done => {
 	download("https://github.com/fwcd/kotlin-language-server/releases/latest/download/grammars.zip")
 		.pipe(decompress())
 		.pipe(filter("Kotlin.tmLanguage.json"))

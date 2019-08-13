@@ -17,7 +17,7 @@
         "source.kotlin"
     ],
     "scripts": {
-        "prepare": "gulp"
+        "prepare": "gulp downloadLanguageServer && gulp downloadTextMateGrammars"
     },
     "dependencies": {
         "atom-languageclient": "^0.9.9",
