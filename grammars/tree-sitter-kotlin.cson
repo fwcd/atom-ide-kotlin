@@ -68,7 +68,7 @@ scopes:
 	'"fun"': 'storage.type.function.kotlin'
 	'"object"': 'storage.type.object.kotlin'
 	'"class"': 'storage.type.class.kotlin'
-	'"interface'": 'storage.type.interface.kotlin'
+	'"interface"': 'storage.type.interface.kotlin'
 	'"typealias"': 'storage.type.alias.kotlin'
 	'''
 		"val",
