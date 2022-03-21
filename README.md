@@ -21,4 +21,4 @@ To use, open a Kotlin file inside a Gradle or Maven project. The language server
 
 ## Development
 
-* To get started developing this package, run `npm run prepare` and then `apm link` in this directory
+* To get started developing this package, run `npm install`, `npm run prepare` and then `apm link` in this directory
