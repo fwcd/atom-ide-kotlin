@@ -20,10 +20,10 @@
         "prepare": "gulp downloadLanguageServer && gulp downloadTextMateGrammars"
     },
     "dependencies": {
-        "atom-languageclient": "^0.9.9",
-        "extract-zip": "^1.6.7",
-        "semver": "^6.3.0",
-        "tree-sitter-kotlin": "^0.2.3"
+        "atom-languageclient": "^1.16.1",
+        "extract-zip": "^2.0.1",
+        "semver": "^7.3.5",
+        "tree-sitter-kotlin": "^0.2.11"
     },
     "consumedServices": {
         "linter-indie": {
@@ -78,5 +78,8 @@
                 "0.1.0": "provideCodeActions"
             }
         }
+    },
+    "devDependencies": {
+        "gulp": "^4.0.2"
     }
 }
