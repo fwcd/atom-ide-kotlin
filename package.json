@@ -16,8 +16,12 @@
     "enhancedScopes": [
         "source.kotlin"
     ],
+    "scripts": {
+        "download-grammar": "node scripts/downloadGrammar.js",
+        "prepare": "npm run download-grammar"
+    },
     "devDependencies": {
-        "node-fetch": "^3.2.3"
+        "request": "^2.88.2"
     },
     "dependencies": {
         "atom-languageclient": "^1.16.1",
