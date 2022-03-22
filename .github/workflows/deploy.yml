@@ -17,7 +17,7 @@ jobs:
     - name: Install dependencies and grammar
       run: npm install
     - name: Create release
-      run: actions/create-release@v1
+      uses: actions/create-release@v1
       with:
         tag_name: ${{ github.ref }}
         release_name: ${{ github.ref }}
