@@ -16,9 +16,6 @@
     "enhancedScopes": [
         "source.kotlin"
     ],
-    "scripts": {
-        "prepare": "gulp downloadLanguageServer && gulp downloadTextMateGrammars"
-    },
     "dependencies": {
         "atom-languageclient": "^1.16.1",
         "extract-zip": "^2.0.1",
