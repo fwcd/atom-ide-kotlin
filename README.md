@@ -1,7 +1,7 @@
 # IDE-Kotlin package for Atom
 
 [![Version](https://img.shields.io/apm/v/ide-kotlin)](https://atom.io/packages/ide-kotlin)
-[![Build](https://img.shields.io/github/workflow/status/fwcd/atom-ide-kotlin/build.yml)](https://github.com/fwcd/atom-ide-kotlin/actions/workflows/build.yml)
+[![Build](https://img.shields.io/github/workflow/status/fwcd/atom-ide-kotlin/Build)](https://github.com/fwcd/atom-ide-kotlin/actions/workflows/build.yml)
 [![Downloads](https://img.shields.io/apm/dm/ide-kotlin)](https://atom.io/packages/ide-kotlin)
 
 This package provides smart code completion, linting and more for Kotlin in Atom using the language server.
