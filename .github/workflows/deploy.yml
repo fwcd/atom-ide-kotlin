@@ -1,0 +1,27 @@
+name: Deploy
+on:
+  push:
+    tags:
+    - 'v*'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: actions/setup-node@v2
+      with:
+        node-version: '17'
+    - name: Install Atom Package Manager
+      run: npm install -g atom-package-manager
+    - name: Install dependencies and grammar
+      run: npm install
+    - name: Create release
+      run: actions/create-release@v1
+      with:
+        tag_name: ${{ github.ref }}
+        release_name: ${{ github.ref }}
+    - name: Publish Atom package
+      run: apm publish --tag ${{ github.ref }}
+      env:
+        ATOM_ACCESS_TOKEN: ${{ secrets.ATOM_ACCESS_TOKEN }}
