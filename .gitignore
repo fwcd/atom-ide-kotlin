@@ -19,5 +19,6 @@ __pycache__
 *.vsix
 
 # Downloaded by the extension
+downloads
 install
 serverDownload.zip
