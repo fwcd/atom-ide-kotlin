@@ -24,7 +24,7 @@
         "request": "^2.88.2"
     },
     "dependencies": {
-        "atom-languageclient": "^1.16.1",
+        "atom-languageclient": "^1.0.7",
         "extract-zip": "^2.0.1",
         "semver": "^7.3.5"
     },
